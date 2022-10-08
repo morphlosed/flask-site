@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block name_css %}services{% endblock %}
+{% block title %}Services{% endblock %}
+
+{% block body %}
+<header class="header">
+    <div class="header__inner">
+        <div class="container">
+            {% include 'nav.html' %}
+            <div class="page_info">
+                <span style="color: #424551; ">Homepage</span> <span style="color: #9A9CA5"> / Services</span>
+                <h1> SERVICES</h1>
+                <p>If you are looking for a full-service construction company, look to Createx
+                    Construction Bureau. We are doing our best to be a partner for all of your construction needs.</p>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="projects">
+        <div class="projects__inner">
+            <div class="container">
+                <div class="project pr1">
+                    <img src="../static/img/services/img_construct.jpg" alt="">
+                    <div class="project_text">
+                        <h1>Construction</h1>
+                        <p> Sapien, feugiat faucibus orci arcu, vulputate. Tristique varius consectetur vulputate arcu,
+                            scelerisque nisi, nibh. Enim semper id sodales ultricies sed ut ut augue. Mattis habitant
+                            venenatis, gravida posuere massa ac interdum. Eget aliquam dignissim ut vestibulum.
+                        </p>
+                        <a href="#" class="project_button">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="project pr2">
+                    <div class="project_text">
+                        <h1>Project Development</h1>
+                        <p> Volutpat tellus mauris sit sit. Posuere ut sit vestibulum amet viverra in. Est nulla lectus
+                            purus tincidunt massa tortor. Hendrerit vulputate elementum blandit massa vitae amet felis
+                            eget.
+                        </p>
+                        <a href="#" class="project_button">LEARN MORE</a>
+                    </div>
+                    <img src="../static/img/services/img_development.jpg" alt="">
+                </div>
+                <div class="project pr3">
+                    <img src="../static/img/services/img_design.jpg" alt="">
+                    <div class="project_text">
+                        <h1>Interior Design</h1>
+                        <p> Eleifend orci massa et facilisis orci feugiat ac. Congue in ut lacus, turpis accumsan
+                            gravida. Aliquet mattis dignissim massa sociis a, id bibendum. Egestas lorem eros, mi cras
+                            amet, vel eget molestie. Turpis enim arcu, amet donec massa pellentesque nulla duis. Arcu
+                            dictum metus sed purus senectus faucibus eget elementum pretium.
+                        </p>
+                        <a href="#" class="project_button">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="project pr4">
+                    <div class="project_text">
+                        <h1>Repairs</h1>
+                        <p>
+                            Facilisis cursus feugiat sit pulvinar amet. Ac facilisi dictum commodo, tortor gravida
+                            pretium, orci. Nunc sit sollicitudin id egestas mattis. Turpis viverra nec urna ultrices urna.
+                        </p>
+                        <a href="#" class="project_button">LEARN MORE</a>
+                    </div>
+                    <img src="../static/img/services/img_repairs.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

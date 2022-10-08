@@ -1,0 +1,101 @@
+/* HEADER FOR ALL*/
+
+.header {
+    height: 600px;
+    background: url(../img/about/background.png);
+}
+.header__nav {
+    margin: 0;
+    padding-top: 35px;
+}
+
+.page_info {
+    margin-top: 80px;
+    max-width: 600px;
+}
+
+.page_info h1 {
+    margin-top: 40px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.page_info p {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #787A80;
+    font-weight: 400;
+}
+
+/* /HEADER FOR ALL*/
+
+/* STATISTICS */
+
+.statistics_items {
+    display: flex;
+    justify-content: center;
+}
+
+.st_item {
+    margin: 120px 0;
+    width: 25%;
+    text-align: center;
+}
+
+.st_item h1 {
+    color: #FF5A30;
+    font-size: 46px;
+    padding-bottom: 10px;
+}
+
+
+.st_item:last-child h1 {
+    margin-top: -8px;
+}
+
+/* /STATISTICS */
+
+/* QUOTATION */
+
+.quotation {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.quotation_sector {
+    display: flex;
+}
+
+.quotation_text {
+    position: relative;
+    padding: 80px 80px 40px 130px;
+    bottom: 120px;
+    right: 30px;
+    background: white;
+    height: 570px;
+    -webkit-box-shadow: -3px 3px 8px 0 rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -3px 3px 8px 0 rgba(34, 60, 80, 0.2);
+    box-shadow: -3px 3px 8px 0 rgba(34, 60, 80, 0.2);
+
+}
+
+.quotation_text p {
+    background: white;
+    color: #1E212C;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.ceo_name {
+    font-size: 16px;
+}
+
+.last_line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* /QUOTATION */

@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block name_css%}about{% endblock %}
+{% block title%}About Us{% endblock %}
+
+{% block body %}
+<header class="header">
+    <div class="header__inner">
+        <div class="container">
+            {% include 'nav.html' %}
+            <div class="page_info">
+                <span style="color: #424551; ">Homepage</span> <span style="color: #9A9CA5"> / About Us</span>
+                <h1> ABOUT US</h1>
+                <p>Createx Construction Bureau has been successfully operating in the USA construction market since
+                    2000. We are proud to offer you quality construction and exemplary service.</p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="statistics">
+        <div class="statistics__inner">
+            <div class="container">
+                <div class="statistics_items">
+                    <div class="st_item">
+                        <img src="../static/img/about/ic-like.svg" alt="">
+                        <h1>60%</h1>
+                        <p> Clients on the recommendation <br>of friends</p>
+                    </div>
+                    <div class="st_item">
+                        <img src="../static/img/about/ic-painting.svg" alt="">
+                        <h1>2400+</h1>
+                        <p>Apartments renovated</p>
+                    </div>
+                    <div class="st_item">
+                        <img src="../static/img/about/ic-helmet.svg" alt="">
+                        <h1>670</h1>
+                        <p>Qualified specialists</p>
+                    </div>
+                    <div class="st_item">
+                        <img src="../static/img/about/ic-pantone.svg" alt="">
+                        <h1>150000+<sup><small>m2</small></sup></h1>
+                        <p>Finishing work was carried out</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quotation">
+        <div class="quotation__inner">
+            <div class="container">
+                <div class="quotation_sector">
+                    <img src="../static/img/about/photo.jpg" alt="photo">
+                    <div class="quotation_text">
+                        <p>
+                            Dapibus nec vitae ante mattis. Aliquam phasellus ac dui augue in. Sed aliquet in egestas hac
+                            at proin sed quam. Etiam aliquet sagittis non, massa cum pulvinar. Et in leo, tempus purus
+                            vestibulum ut blandit et mi. Odio massa purus vel praesent arcu enim elit felis viverra.<br>
+                        </p>
+
+                        <p>
+                            Magna aliquam interdum mattis ipsum arcu. Elit odio elit viverra quis metus amet eleifend amet.
+                            Vet suspendisse faucibus tempor ipsum integer.
+                        </p>
+
+                        <div class="last_line">
+                            <h5 class="ceo_name">
+                            <span>Courtney Alexander</span> <br>
+                            <span class='ceo_work' style="color: #787A80; font-size: 14px ">CEO - Createx Construction Bureau</span>
+                            </h5>
+                            <img src="../static/img/about/signature.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

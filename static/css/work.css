@@ -1,0 +1,96 @@
+/* HEADER FOR ALL*/
+.header {
+    height: 600px;
+    background: url(../img/work/header-background.png);
+}
+.header__nav {
+    margin: 0;
+    padding-top: 35px;
+}
+
+.page_info {
+    margin-top: 80px;
+    max-width: 600px;
+}
+
+.page_info h1 {
+    margin-top: 40px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.page_info p {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #787A80;
+    font-weight: 400;
+}
+/* /HEADER FOR ALL*/
+
+/* WORK*/
+
+.work {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.work_projects {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.work_block {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 0px 8px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 8px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.block_hover {
+    height: 345px;
+    width: 350px;
+}
+
+.work_button {
+    visibility: hidden;
+    color: #FF5A30;
+    border: 1px solid #FF5A30;
+    padding: 16px 32px;
+    transition: 0.3s;
+}
+
+.work_block img {
+    height: auto;
+    max-height: 345px;
+    max-width: 378px;
+    overflow: hidden;
+    background: red;
+    transition: max-height 0.5s;
+}
+
+.work_block h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E212C;
+    margin-top: 16px;
+    margin-bottom: 4px;
+
+}
+
+.block_hover {
+    min-height: 345px;
+    width: 390px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.work_block p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 35px;
+    color: #787A80;
+}
+
+/* /WORK */

@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block name_css %}work{% endblock %}
+{% block title %}Our work{% endblock %}
+
+{% block body %}
+<header class="header">
+    <div class="header__inner">
+        <div class="container">
+            {% include 'nav.html' %}
+            <div class="page_info">
+                <span style="color: #424551; ">Homepage</span> <span style="color: #9A9CA5"> / Work</span>
+                <h1> OUR WORK</h1>
+                <p>Our portfolio represents 20 years of construction experience backed by a passion for perfect client
+                    service, quality and innovations in construction industry.</p>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="work">
+        <div class="container">
+            <div class="work__inner">
+                <div class="work_projects">
+                    <div class="work_block">
+                        <img src="../static/img/work/image.png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                    </div>
+                    <div class="work_block">
+                        <img src="../static/img/work/image(1).png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                    </div>
+                    <div class="work_block">
+                        <img src="../static/img/work/image(2).png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                    </div>
+                    <div class="work_block">
+                        <img src="../static/img/work/image(3).png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                    </div>
+                    <div class="work_block">
+                        <img src="../static/img/work/image(4).png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                    </div>
+                    <div class="work_block">
+                        <img class="block_hover" src="../static/img/work/image(5).png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                    </div>
+                    <div class="work_block">
+                        <img src="../static/img/work/image(6).png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                        <a class ="work_button" href="#">VIEW PROJECT</a>
+                    </div>
+                    <div class="work_block">
+                        <img src="../static/img/work/image(7).png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                    </div>
+                    <div class="work_block">
+                        <img src="../static/img/work/image(8).png" alt="">
+                        <h4>Cubes Building</h4>
+                        <p>Business Centers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

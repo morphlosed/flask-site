@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block name_css %}contacts{% endblock %}
+{% block title %}Contacts{% endblock %}
+
+{% block body %}
+<header class="header">
+    <div class="header__inner">
+        <div class="container">
+            {% include 'nav.html' %}
+            <div class="page_info">
+                <span style="color: #424551; ">Homepage</span> <span style="color: #9A9CA5"> / Contacts</span>
+                <h1>CONTACTS</h1>
+                <p>Contact us for all your construction needs. We always welcome any questions and comments.</p>
+            </div>
+        </div>
+    </div>
+</header>
+{% endblock %}

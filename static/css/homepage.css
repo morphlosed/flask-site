@@ -1,0 +1,178 @@
+/* HEADER */
+
+.header__main {
+    background: url("../img/homepage/bg-image.jpg");
+    background-size: cover;
+    height: 1000px;
+}
+
+.header__block {
+    padding-top: 220px;
+    max-width: 580px;
+}
+
+.header__block h1 {
+    color: white;
+    font-size: 72px;
+    padding-bottom: 25px;
+}
+
+.header__block p {
+    color: white;
+    font-size: 20px;
+}
+
+.header__button {
+    margin-top: 60px;
+}
+
+.header__button a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px 40px;
+    margin-right: 25px;
+    transition: 0.3s;
+}
+
+.header__button a:hover {
+    border-color: #FF5A30;
+    background: #FF5A30;
+}
+
+/* /HEADER */
+
+/* -------------------------------------- */
+
+/* VALUES */
+
+.values {
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.values__text h1 {
+    color: #1E212C;
+    font-size: 46px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.values__text p {
+    color: #787A80;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.icon-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 33%;
+    padding: 0 70px;
+}
+
+.box1 {
+    border-right: 1px solid rgba(218, 219, 221, 0.5);
+}
+
+.box3 {
+    border-left: 1px solid rgba(218, 219, 221, 0.5);
+
+}
+
+.box h3 {
+    color: #1E212C;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.box p {
+    color: #787A80;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* SERVICES */
+
+.services {
+    margin-top: 35px;
+    padding-top: 150px;
+    background: url("../img/homepage/background.jpg");
+    height: 900px;
+}
+
+.services__inner h1, .services__inner p {
+    text-align: center;
+}
+
+.services__inner h1 {
+    color: #1E212C;
+    font-weight: 700;
+}
+
+.services__inner p {
+    color: #787A80;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.services__inner_blocks {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service {
+    background: white;
+    padding-top: 90px;
+    height: 285px;
+    width: 285px;
+    transition: background 0.5s ease;
+}
+
+.service img{
+    fill: white;
+}
+
+.service h4 {
+    color: #1E212C;
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+.about_services {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.about_services_title {
+    color: #1E212C;
+    font-weight: 700;
+    margin-right: 60px;
+
+}
+
+.about_services a {
+    text-decoration: none;
+    background: #FF5A30;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 4px;
+}
+
+.portfolio h1 {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+

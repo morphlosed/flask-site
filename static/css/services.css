@@ -1,0 +1,86 @@
+/* HEADER FOR ALL*/
+
+.header {
+    height: 600px;
+    background: url(../img/services/header_background.png);
+}
+.header__nav {
+    margin: 0;
+    padding-top: 35px;
+}
+
+.page_info {
+    margin-top: 80px;
+    max-width: 600px;
+}
+
+.page_info h1 {
+    margin-top: 40px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.page_info p {
+    margin-top: 25px;
+    font-size: 20px;
+    color: #787A80;
+    font-weight: 400;
+}
+
+/* /HEADER FOR ALL*/
+
+/* PROJECTS*/
+
+.project {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 180px;
+}
+
+.project_text {
+    width: 575px;
+    margin-left: 60px;
+}
+
+.project_text h1 {
+    color: #1E212C;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.project_text p {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    color: #787A80;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.project_button {
+    text-decoration: none;
+    color: #FF5A30;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: 1px solid #FF5A30;
+    border-radius: 4px;
+    transition: 0.1s;
+}
+
+.project_button:hover {
+    background: #FF5A30;
+    color: white;
+}
+
+.pr2 .project_text {
+    margin-left: 0;
+    margin-right: 60px;
+}
+
+.pr4 .project_text {
+    margin-left: 0;
+    margin-right: 60px;
+}
+
+/* /PROJECTS */
